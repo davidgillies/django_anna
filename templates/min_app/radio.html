@@ -1,0 +1,5 @@
+
+
+ {% for k, v in options.items %}
+<input type="radio"  name="{{var_name}}" value="{{k}}" {% if k == obj_id %} checked {% endif %}>{{v.0}} <br/>
+{% endfor %}

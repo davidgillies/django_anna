@@ -1,0 +1,12 @@
+
+<tr>
+<td class="bordered questiontext_header ">
+    <div class="textnode_textbody">Some text</div>
+</td>
+
+ {% for k, v in options.items %}
+<td id="{{question}}" class="textalign_center bordered ">
+<input type="radio"  id="{{v.1}}"  name="{{var_name}}" value="{{k}}" {% if k == obj_id %} checked {% endif %}> 
+</td>
+{% endfor %}
+</tr>

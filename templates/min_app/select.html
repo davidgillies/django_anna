@@ -1,0 +1,6 @@
+
+<select id="{{question}}" name="{{var_name}}">
+{% for k, v in options.items %}
+<option id="{{v.1}}" value="{{k}}"  {% if k == obj_id %} selected {% endif %}>{{v.0}}  </option>
+{% endfor %}
+</select>
