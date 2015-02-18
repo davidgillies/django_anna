@@ -4,8 +4,8 @@
 pip install simplejson
 
 ## Changes
-min/urls.py
-min_app/views.py
+* min/urls.py
+* min_app/views.py
 
 ## Files to add
 Need to add in the templates folder at:
