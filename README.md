@@ -4,6 +4,8 @@
 pip install simplejson
 
 ## Changes
+Update the following 2 files:
+
 * min/urls.py
 * min_app/views.py
 
