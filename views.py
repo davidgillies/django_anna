@@ -11,7 +11,7 @@ def index(request):
 
 
 def get_template(output_type):
-    return {'select': 'min_app/select.html', 'radio':'min_app/radio.html', 'cam_radio':'min_app/cam_radio.html'}[output_type]
+    return {'select': 'my_app/select.html', 'radio':'my_app/radio.html', 'cam_radio':'my_app/cam_radio.html'}[output_type]
 
 
 @csrf_exempt
